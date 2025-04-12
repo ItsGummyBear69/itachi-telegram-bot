@@ -1,7 +1,7 @@
 require('dotenv').config();
 const { Telegraf } = require('telegraf');
 
-const bot = new Telegraf(process.env.BOT_TOKEN);
+const bot = new Telegraf(7892198675:AAGRiazwNAsmIilBMHOS_a0eN2ZwkYIyGbE,process.env.BOT_TOKEN);
 
 bot.start((ctx) => ctx.reply('ITACHI UCHIHA is active. Send me any file or message.'));
 
